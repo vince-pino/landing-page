@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   margin: 0;
   height: 100vh;
+  font-family: "Roboto";
 }
 
 .main {
@@ -16,26 +17,41 @@ img {
   width: 90px;
 }
 
-.container {
-  margin: 0 100px;
-  border: 1px solid red;
+.hero-container {
+  margin: 0;
+  padding: 0 130px;
+  background-color: #1F2937;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 80px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
 }
 
 ul {
   display: flex;
   list-style: none;
-  gap: 8px;
+  gap: 20px;
 }
 
 a {
+  font-size: 18px;
   text-decoration: none;
-  color: black;
+  color: #e5e7eb;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
 }
 
 .about {
@@ -43,12 +59,31 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
-  border: 1px solid black;
+  margin-bottom: 80px;
+}
+
+.about div {
+  flex: 1;
 }
 
 .about img {
-  width: 500px;
-  height: 200px;
+  width: 580px;
+  min-height: 259px;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding: 6px 20px;
+  border-radius: 5px;
 }
 
 .body {
@@ -65,7 +100,6 @@ a {
 
 .content-img {
   width: 200px;
-  border: 1px solid green;
 }
 
 .content-img img {
@@ -82,7 +116,6 @@ a {
   display: flex;
   flex-direction: column;
   width: 500px;
-  border: 1px solid red;
 }
 
 .qoute .author {
@@ -92,7 +125,6 @@ a {
 
 .invitation-container {
   display: flex;
-  border: 1px solid red;
   justify-content: center;
 }
 
@@ -101,11 +133,10 @@ a {
   justify-content: center;
   gap: 100px;
   width: 800px;
-  border: 1px solid black;
 }
 
 .footer {
   display: flex;
   justify-content: center;
-  background-color: gray;
+  background-color: #1F2937;
 }

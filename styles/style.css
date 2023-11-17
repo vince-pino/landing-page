@@ -92,18 +92,30 @@ button {
   align-items: center;
 }
 
+.info-header-txt {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .content {
   display: flex;
   justify-content: center;
   gap: 32px;
+  margin-bottom: 30px;
 }
 
-.content-img {
-  width: 200px;
+.content-body {
+  width: 150px;
+  justify-content: center;
+  text-align: center;
 }
 
-.content-img img {
-  width: auto;
+.content-body img {
+  width: 100%;
+  margin-bottom: 8px;
 }
 
 .qoute-container {
